@@ -8,7 +8,7 @@ the key stream and the WEP key using statistical attacks.
 Conclusion: The more IV's that we collect the more likely for us to crack the key.
 
 # Fake Authentication Attack
-============================
+==========================================================
 
 Before we can start injecting packets into the traffic , we have to authenticate our wifi card with the AP, because AP's ignore
 any requests that come from devices that are not associated with the AP.
@@ -17,7 +17,7 @@ If this fake authentication was successful the value under the “AUTH” column
 
 
 # Method-1 : ARP Request Reply
-===============================
+===========================================================
 
 In this method , after successfully associating with the target
 AP , we will wait for an ARP packet , we will then capture this
@@ -29,12 +29,12 @@ to crack the key.
 
 
 # Method-2 : Korek chopchop
-============================
+============================================================
 
 In this method we will capture an ARP packet and attempt to guess its key stream and use it to forge a new packet (using packetforge-ng) ,then we can inject this new forged packet into the traffic to generate new IV's.
 
 
 # Method - 3 : Fragmentation Attack
-===================================
+============================================================
 
 The goal of this method is to obtain 1500 bytes of the PRGA (pseudo random generation algorithm) , this can be used to forge a new packet which can be injected into the traffic to generate new IV's

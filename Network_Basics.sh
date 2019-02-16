@@ -62,7 +62,7 @@ BSSID == MAC Address of the Access Point.
 PWR == Power i.e. how far the AP is from our WiFi card.
 Beacons == It is the signals that AP sends.
 Data == the number of useful packets that we sniffed.
-/s == Ti is the number of data packets that we have collected in past 10 secs.
+/s == This is the number of data packets that we have collected in past 10 secs.
 
 
 ##########################      Targeted Sniffing Using Airodump-ng     ###################################

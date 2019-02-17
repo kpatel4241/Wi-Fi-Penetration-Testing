@@ -83,7 +83,7 @@ aireplay-ng --deauth [no_of_packets] -a [Access Point] [INTERFACE]
 aireplay-ng --deauth [no_of_packets] -a [Access Point] -c [Client MAC] [INTERFACE]
 
 
-######################      013 Discovering Hidden Networks     #####################################
+######################       Discovering Hidden Networks     #####################################
 
 airodump-ng wlan0mon    # if ESSID == <length: 0> then it's a hidden network.
 
